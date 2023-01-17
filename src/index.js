@@ -41,7 +41,6 @@ if(number % 10 == 0) {
 }
 if (number < 100) {
   let key = +(strNum[0] + '0');
-  if (number % 100 == 0) return (nums[+strNum[0]] + ' hundred');
   return (dozens[key] + ' ' + nums[+strNum[1]]);
   }
 
